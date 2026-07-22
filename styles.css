@@ -616,12 +616,13 @@ body {
     grid-column: 9 / span 2;
 }
 
-/* Massages page: 4 cards on top, 4 on bottom (8 total) */
+/* Massages page: 4 cards per row (9 total) */
 .services-list-massages {
     grid-template-columns: repeat(4, 1fr) !important;
     gap: 2rem !important;
 }
 
+.services-list-massages .service-card,
 .services-list-massages .service-card:nth-child(1),
 .services-list-massages .service-card:nth-child(2),
 .services-list-massages .service-card:nth-child(3),
@@ -629,8 +630,11 @@ body {
 .services-list-massages .service-card:nth-child(5),
 .services-list-massages .service-card:nth-child(6),
 .services-list-massages .service-card:nth-child(7),
-.services-list-massages .service-card:nth-child(8) {
-    grid-column: auto;
+.services-list-massages .service-card:nth-child(8),
+.services-list-massages .service-card:nth-child(9) {
+    grid-column: auto !important;
+    max-width: none !important;
+    width: 100% !important;
 }
 
 /* Facials page: 4 cards per row, 3 rows (12 total) */
@@ -670,7 +674,6 @@ body {
     display: flex;
     flex-direction: column;
     transition: all 0.3s ease;
-    max-width: 280px;
     overflow: hidden;
     backdrop-filter: blur(10px);
     border-bottom: 3px solid rgba(255,255,255,0.8);
