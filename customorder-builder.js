@@ -179,6 +179,8 @@ const facialAddons = [
     { name: 'Eye mask/patch', desc: 'Eye treatment mask', price: 10 },
     { name: 'Cold globes', desc: 'Cooling facial globes', price: 5 },
     { name: 'Gua Sha', desc: 'Facial massage tool treatment', price: 15 },
+    { name: 'Gua Sha Face lift 20min', desc: 'Lifting facial massage technique', price: 50 },
+    { name: 'Gua Sha Face lift 30min', desc: 'Extended lifting facial massage', price: 70 },
     { name: 'Sonic Face&Scalp massage', desc: '10/15-minute sonic massage', price: 20 },
     { name: 'High frequency', desc: 'High frequency facial treatment', price: 20 },
     { name: 'Light therapy 15 min', desc: '15 minutes of light therapy', price: 20 },
