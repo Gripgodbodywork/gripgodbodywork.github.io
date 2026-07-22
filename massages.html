@@ -42,11 +42,6 @@
                 <li><a href="contact.html" class="nav-link" style="background: transparent; border: 2px solid #D4AF37; border-radius: 20px; padding: 10px 20px; color: #D4AF37; font-weight: 600; font-family: 'Cinzel', serif; letter-spacing: 1px; transition: all 0.3s ease;">Contact</a></li>
             </ul>
             <div class="nav-icons">
-                <button class="cart-btn" id="cartBtn" style="background: linear-gradient(135deg, #D4AF37 0%, #F4E5C2 50%, #D4AF37 100%); border: 2px solid #B8941E; border-radius: 25px; padding: 10px 24px; color: #1a1a1a; font-weight: 700; font-family: 'Cinzel', serif; letter-spacing: 1px; box-shadow: 0 4px 15px rgba(212,175,55,0.4), inset 0 1px 0 rgba(255,255,255,0.3); transition: all 0.3s ease;">
-                    <i class="fas fa-calendar-check" style="margin-right: 8px;"></i>
-                    <span style="font-size: 0.9rem;">BOOK</span>
-                    <span class="cart-count" id="cartCount" style="background: #1a1a1a; color: #D4AF37; border: 2px solid #D4AF37; margin-left: 8px;">0</span>
-                </button>
                 <button class="hamburger" id="hamburger">
                     <span></span>
                     <span></span>
@@ -61,9 +56,9 @@
                 <h3 style="font-family: 'Cinzel', serif; margin: 0 0 10px 0; color: #D4AF37; font-weight: 700; font-size: 1.3rem; letter-spacing: 1px;">Deposit Required</h3>
                 <p style="font-family: 'Cinzel', serif; margin: 0; font-size: 1.1rem; color: #F4E5C2; font-weight: 500;">All services require a <strong style="color: #D4AF37;">$50 deposit</strong> to secure your appointment</p>
             </div>
-            <div class="services-list services-list-massages">
+            <div class="services-list services-list-massages" style="display: grid !important; grid-template-columns: repeat(4, 1fr) !important; gap: 2rem !important;">
                 <!-- Introductory Massage - $80 -->
-                <div class="service-card">
+                <div class="service-card" style="grid-column: auto !important;">
                     <div class="service-image" style="background-image: url('https://images.squarespace-cdn.com/content/v1/5695193469492eeb1b3fb281/1518290993941-5TM47PO3C9EUZ507AWEG/iStock-665267812_super.jpg'); background-size: cover; background-position: center;">
                     </div>
                     <div class="service-info">
@@ -79,7 +74,7 @@
                 </div>
 
                 <!-- Prenatal Massage - $100 -->
-                <div class="service-card">
+                <div class="service-card" style="grid-column: auto !important;">
                     <div class="service-image" style="background-image: url('https://viamedmassage.com/wp-content/uploads/2023/07/pre-and-post-partum-massage.jpg'); background-size: cover; background-position: center;">
                     </div>
                     <div class="service-info">
@@ -95,7 +90,7 @@
                 </div>
 
                 <!-- Swedish Massage - $120 -->
-                <div class="service-card">
+                <div class="service-card" style="grid-column: auto !important;">
                     <div class="service-image" style="background-image: url('https://www.hongsmassage.com/wp-content/uploads/2024/09/benefits-of-massage-therapy-2048x1152.webp'); background-size: cover; background-position: center;">
                     </div>
                     <div class="service-info">
@@ -111,7 +106,7 @@
                 </div>
 
                 <!-- Mobile Custom Massage - $130 -->
-                <div class="service-card">
+                <div class="service-card" style="grid-column: auto !important;">
                     <div class="service-image" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_oIdDbJ7WFSgjzDaM9SrIO8bSrJWQVYIkZw&s'); background-size: cover; background-position: center;">
                     </div>
                     <div class="service-info">
@@ -127,7 +122,7 @@
                 </div>
 
                 <!-- Deep Tissue Massage - $145 -->
-                <div class="service-card">
+                <div class="service-card" style="grid-column: auto !important;">
                     <div class="service-image" style="background-image: url('https://thumbs2.imgbox.com/c7/b2/Kp33SJGg_t.png'); background-size: cover; background-position: center;">
                     </div>
                     <div class="service-info">
@@ -143,7 +138,7 @@
                 </div>
 
                 <!-- Hot Stone Massage - $150 -->
-                <div class="service-card">
+                <div class="service-card" style="grid-column: auto !important;">
                     <div class="service-image" style="background-image: url('https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/topic_centers/1296x728_HEADER_benefits-of-hot-stone-massage.jpg?w=1155&h=1528'); background-size: cover; background-position: center;">
                     </div>
                     <div class="service-info">
@@ -159,7 +154,7 @@
                 </div>
 
                 <!-- Couples Swedish Massage - $240 -->
-                <div class="service-card">
+                <div class="service-card" style="grid-column: auto !important;">
                     <div class="service-image" style="background-image: url('https://images.squarespace-cdn.com/content/v1/6447eeb38baf0c31deed937f/1683133228860-0HWT4RD8CEMZFOY2TIVM/Couples+Massage+Gift+Cards.jpeg'); background-size: cover; background-position: center;">
                     </div>
                     <div class="service-info">
@@ -175,7 +170,7 @@
                 </div>
 
                 <!-- Couples Deep Tissue - $270 -->
-                <div class="service-card">
+                <div class="service-card" style="grid-column: auto !important;">
                     <div class="service-image" style="background-image: url('https://images2.imgbox.com/35/c3/9hLfC3uD_o.png'); background-size: cover; background-position: center;">
                     </div>
                     <div class="service-info">
@@ -185,6 +180,22 @@
                     </div>
                     <div class="service-pricing">
                         <button class="info-btn" data-modal="couple-deeptissue-modal" style="width: 100%; padding: 0.85rem 2rem; background: linear-gradient(135deg, rgba(80,80,80,0.9) 0%, rgba(60,60,60,0.95) 100%); color: rgba(255,255,255,0.95); border: 1px solid rgba(255,255,255,0.2); border-radius: 50px; font-weight: 600; letter-spacing: 0.5px; cursor: pointer; transition: all 0.3s; font-size: 0.85rem;">
+                            <i class="fas fa-info-circle"></i> More Info
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Gua Sha Face lift massage - $165 -->
+                <div class="service-card" style="grid-column: auto !important;">
+                    <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=400&h=300&fit=crop'); background-size: cover; background-position: center;">
+                    </div>
+                    <div class="service-info">
+                        <h3>Gua Sha Face lift massage</h3>
+                        <div class="starting-price">Starting at</div>
+                        <div class="price-display">$165</div>
+                    </div>
+                    <div class="service-pricing">
+                        <button class="info-btn" data-modal="guasha-facelift-modal" style="width: 100%; padding: 0.85rem 2rem; background: linear-gradient(135deg, rgba(80,80,80,0.9) 0%, rgba(60,60,60,0.95) 100%); color: rgba(255,255,255,0.95); border: 1px solid rgba(255,255,255,0.2); border-radius: 50px; font-weight: 600; letter-spacing: 0.5px; cursor: pointer; transition: all 0.3s; font-size: 0.85rem;">
                             <i class="fas fa-info-circle"></i> More Info
                         </button>
                     </div>
@@ -626,6 +637,156 @@
         </div>
     </div>
 
+    <div id="guasha-facelift-modal" class="service-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Gua Sha Face lift massage</h2>
+            <p class="modal-description">Traditional Chinese facial massage technique using a smooth-edged tool to promote circulation, reduce puffiness, and naturally lift and contour the face. Experience the rejuvenating benefits of this ancient practice.</p>
+            
+            <h3>Single Session Pricing</h3>
+            <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px; border: 1px solid rgba(255,255,255,0.1);">
+                <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px; border-bottom: 1px solid rgba(255,255,255,0.1);">
+                    <div>
+                        <span style="color: rgba(255,255,255,0.9); font-weight: 600; display: block;">60 minutes</span>
+                        <span style="color: rgba(255,255,255,0.95); font-size: 1.3rem; font-weight: bold;">$165</span>
+                    </div>
+                    <button class="add-to-cart-btn" data-service="Gua Sha Face lift massage" data-duration="60 min" data-price="165" style="padding: 0.6rem 1.5rem; font-size: 0.85rem;">
+                        <i class="fas fa-cart-plus"></i> Book 60min
+                    </button>
+                </div>
+                <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px;">
+                    <div>
+                        <span style="color: rgba(255,255,255,0.9); font-weight: 600; display: block;">90 minutes</span>
+                        <span style="color: rgba(255,255,255,0.95); font-size: 1.3rem; font-weight: bold;">$225</span>
+                    </div>
+                    <button class="add-to-cart-btn" data-service="Gua Sha Face lift massage" data-duration="90 min" data-price="225" style="padding: 0.6rem 1.5rem; font-size: 0.85rem;">
+                        <i class="fas fa-cart-plus"></i> Book 90min
+                    </button>
+                </div>
+            </div>
+
+            <h3>30 Minute Treatment Plans</h3>
+            <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px; border: 1px solid rgba(255,255,255,0.1);">
+                <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px; border-bottom: 1px solid rgba(255,255,255,0.1);">
+                    <div>
+                        <span style="color: rgba(255,255,255,0.9); font-weight: 600; display: block;">3 months</span>
+                        <span style="color: rgba(255,255,255,0.95); font-size: 1.3rem; font-weight: bold;">$225 <span style="text-decoration: line-through; opacity: 0.6; font-size: 0.85rem;">$240</span></span>
+                    </div>
+                    <button class="add-to-cart-btn" data-service="Gua Sha Face lift massage - 30min Plan" data-duration="3 months" data-price="225" style="padding: 0.6rem 1.5rem; font-size: 0.85rem;">
+                        <i class="fas fa-cart-plus"></i> Book Plan
+                    </button>
+                </div>
+                <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px; border-bottom: 1px solid rgba(255,255,255,0.1);">
+                    <div>
+                        <span style="color: rgba(255,255,255,0.9); font-weight: 600; display: block;">6 months</span>
+                        <span style="color: rgba(255,255,255,0.95); font-size: 1.3rem; font-weight: bold;">$450 <span style="text-decoration: line-through; opacity: 0.6; font-size: 0.85rem;">$480</span></span>
+                    </div>
+                    <button class="add-to-cart-btn" data-service="Gua Sha Face lift massage - 30min Plan" data-duration="6 months" data-price="450" style="padding: 0.6rem 1.5rem; font-size: 0.85rem;">
+                        <i class="fas fa-cart-plus"></i> Book Plan
+                    </button>
+                </div>
+                <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px; border-bottom: 1px solid rgba(255,255,255,0.1);">
+                    <div>
+                        <span style="color: rgba(255,255,255,0.9); font-weight: 600; display: block;">9 months</span>
+                        <span style="color: rgba(255,255,255,0.95); font-size: 1.3rem; font-weight: bold;">$675 <span style="text-decoration: line-through; opacity: 0.6; font-size: 0.85rem;">$720</span></span>
+                    </div>
+                    <button class="add-to-cart-btn" data-service="Gua Sha Face lift massage - 30min Plan" data-duration="9 months" data-price="675" style="padding: 0.6rem 1.5rem; font-size: 0.85rem;">
+                        <i class="fas fa-cart-plus"></i> Book Plan
+                    </button>
+                </div>
+                <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px;">
+                    <div>
+                        <span style="color: rgba(255,255,255,0.9); font-weight: 600; display: block;">12 months</span>
+                        <span style="color: rgba(255,255,255,0.95); font-size: 1.3rem; font-weight: bold;">$900 <span style="text-decoration: line-through; opacity: 0.6; font-size: 0.85rem;">$960</span></span>
+                    </div>
+                    <button class="add-to-cart-btn" data-service="Gua Sha Face lift massage - 30min Plan" data-duration="12 months" data-price="900" style="padding: 0.6rem 1.5rem; font-size: 0.85rem;">
+                        <i class="fas fa-cart-plus"></i> Book Plan
+                    </button>
+                </div>
+            </div>
+
+            <h3>60 Minute Treatment Plans</h3>
+            <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px; border: 1px solid rgba(255,255,255,0.1);">
+                <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px; border-bottom: 1px solid rgba(255,255,255,0.1);">
+                    <div>
+                        <span style="color: rgba(255,255,255,0.9); font-weight: 600; display: block;">3 months</span>
+                        <span style="color: rgba(255,255,255,0.95); font-size: 1.3rem; font-weight: bold;">$465 <span style="text-decoration: line-through; opacity: 0.6; font-size: 0.85rem;">$495</span></span>
+                    </div>
+                    <button class="add-to-cart-btn" data-service="Gua Sha Face lift massage - 60min Plan" data-duration="3 months" data-price="465" style="padding: 0.6rem 1.5rem; font-size: 0.85rem;">
+                        <i class="fas fa-cart-plus"></i> Book Plan
+                    </button>
+                </div>
+                <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px; border-bottom: 1px solid rgba(255,255,255,0.1);">
+                    <div>
+                        <span style="color: rgba(255,255,255,0.9); font-weight: 600; display: block;">6 months</span>
+                        <span style="color: rgba(255,255,255,0.95); font-size: 1.3rem; font-weight: bold;">$930 <span style="text-decoration: line-through; opacity: 0.6; font-size: 0.85rem;">$990</span></span>
+                    </div>
+                    <button class="add-to-cart-btn" data-service="Gua Sha Face lift massage - 60min Plan" data-duration="6 months" data-price="930" style="padding: 0.6rem 1.5rem; font-size: 0.85rem;">
+                        <i class="fas fa-cart-plus"></i> Book Plan
+                    </button>
+                </div>
+                <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px; border-bottom: 1px solid rgba(255,255,255,0.1);">
+                    <div>
+                        <span style="color: rgba(255,255,255,0.9); font-weight: 600; display: block;">9 months</span>
+                        <span style="color: rgba(255,255,255,0.95); font-size: 1.3rem; font-weight: bold;">$1,380 <span style="text-decoration: line-through; opacity: 0.6; font-size: 0.85rem;">$1,485</span></span>
+                    </div>
+                    <button class="add-to-cart-btn" data-service="Gua Sha Face lift massage - 60min Plan" data-duration="9 months" data-price="1380" style="padding: 0.6rem 1.5rem; font-size: 0.85rem;">
+                        <i class="fas fa-cart-plus"></i> Book Plan
+                    </button>
+                </div>
+                <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px;">
+                    <div>
+                        <span style="color: rgba(255,255,255,0.9); font-weight: 600; display: block;">12 months</span>
+                        <span style="color: rgba(255,255,255,0.95); font-size: 1.3rem; font-weight: bold;">$1,845 <span style="text-decoration: line-through; opacity: 0.6; font-size: 0.85rem;">$1,980</span></span>
+                    </div>
+                    <button class="add-to-cart-btn" data-service="Gua Sha Face lift massage - 60min Plan" data-duration="12 months" data-price="1845" style="padding: 0.6rem 1.5rem; font-size: 0.85rem;">
+                        <i class="fas fa-cart-plus"></i> Book Plan
+                    </button>
+                </div>
+            </div>
+
+            <h3>90 Minute Treatment Plans</h3>
+            <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; margin-bottom: 20px; border: 1px solid rgba(255,255,255,0.1);">
+                <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px; border-bottom: 1px solid rgba(255,255,255,0.1);">
+                    <div>
+                        <span style="color: rgba(255,255,255,0.9); font-weight: 600; display: block;">3 months</span>
+                        <span style="color: rgba(255,255,255,0.95); font-size: 1.3rem; font-weight: bold;">$630 <span style="text-decoration: line-through; opacity: 0.6; font-size: 0.85rem;">$675</span></span>
+                    </div>
+                    <button class="add-to-cart-btn" data-service="Gua Sha Face lift massage - 90min Plan" data-duration="3 months" data-price="630" style="padding: 0.6rem 1.5rem; font-size: 0.85rem;">
+                        <i class="fas fa-cart-plus"></i> Book Plan
+                    </button>
+                </div>
+                <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px; border-bottom: 1px solid rgba(255,255,255,0.1);">
+                    <div>
+                        <span style="color: rgba(255,255,255,0.9); font-weight: 600; display: block;">6 months</span>
+                        <span style="color: rgba(255,255,255,0.95); font-size: 1.3rem; font-weight: bold;">$1,260 <span style="text-decoration: line-through; opacity: 0.6; font-size: 0.85rem;">$1,350</span></span>
+                    </div>
+                    <button class="add-to-cart-btn" data-service="Gua Sha Face lift massage - 90min Plan" data-duration="6 months" data-price="1260" style="padding: 0.6rem 1.5rem; font-size: 0.85rem;">
+                        <i class="fas fa-cart-plus"></i> Book Plan
+                    </button>
+                </div>
+                <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px; border-bottom: 1px solid rgba(255,255,255,0.1);">
+                    <div>
+                        <span style="color: rgba(255,255,255,0.9); font-weight: 600; display: block;">9 months</span>
+                        <span style="color: rgba(255,255,255,0.95); font-size: 1.3rem; font-weight: bold;">$1,875 <span style="text-decoration: line-through; opacity: 0.6; font-size: 0.85rem;">$2,025</span></span>
+                    </div>
+                    <button class="add-to-cart-btn" data-service="Gua Sha Face lift massage - 90min Plan" data-duration="9 months" data-price="1875" style="padding: 0.6rem 1.5rem; font-size: 0.85rem;">
+                        <i class="fas fa-cart-plus"></i> Book Plan
+                    </button>
+                </div>
+                <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px;">
+                    <div>
+                        <span style="color: rgba(255,255,255,0.9); font-weight: 600; display: block;">12 months</span>
+                        <span style="color: rgba(255,255,255,0.95); font-size: 1.3rem; font-weight: bold;">$2,505 <span style="text-decoration: line-through; opacity: 0.6; font-size: 0.85rem;">$2,700</span></span>
+                    </div>
+                    <button class="add-to-cart-btn" data-service="Gua Sha Face lift massage - 90min Plan" data-duration="12 months" data-price="2505" style="padding: 0.6rem 1.5rem; font-size: 0.85rem;">
+                        <i class="fas fa-cart-plus"></i> Book Plan
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
@@ -656,25 +817,6 @@
         </div>
     </footer>
 
-    <div class="cart-sidebar" id="cartSidebar">
-        <div class="cart-header">
-            <h3>Your Cart</h3>
-            <button class="close-cart" id="closeCart"><i class="fas fa-times"></i></button>
-        </div>
-        <div class="cart-items" id="cartItems"></div>
-        <div class="cart-footer">
-            <div class="cart-total">
-                <span>Total:</span>
-                <span id="cartTotal">$0.00</span>
-            </div>
-            <div class="deposit-info">
-                <i class="fas fa-info-circle deposit-info-icon"></i>
-                <span class="deposit-tooltip">Pay $50 deposit now. Remaining balance due at appointment.</span>
-            </div>
-            <button class="checkout-btn" id="checkoutBtn">Pay $50 Deposit</button>
-        </div>
-    </div>
-    <div class="cart-overlay" id="cartOverlay"></div>
 
     <!-- Add-ons Selection Modal -->
     <div id="addons-modal" class="addons-modal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); z-index: 10000; overflow-y: auto; backdrop-filter: blur(5px);">
@@ -1009,10 +1151,6 @@
         });
     </script>
 
-    <!-- Square Web Payments SDK -->
-    <script type="text/javascript" src="https://web.squarecdn.com/v1/square.js"></script>
-    
-    <script src="cart.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
