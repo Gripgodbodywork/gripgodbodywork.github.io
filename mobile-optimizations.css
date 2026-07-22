@@ -25,13 +25,29 @@
         gap: 1.5rem;
     }
     
-    .services-list-massages {
+    /* Force massages page to single column like facials page */
+    .services-list-massages,
+    .services-list-massages[style],
+    div.services-list-massages {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 1.5rem !important;
+    }
+    
+    .services-list-facials {
         grid-template-columns: 1fr !important;
     }
     
-    /* Override inline styles on index page service cards */
+    /* Override inline styles on service cards */
     .services-list[style*="grid-template-columns"] {
         grid-template-columns: 1fr !important;
+    }
+    
+    .services-list-massages .service-card,
+    .services-list-massages .service-card[style] {
+        grid-column: auto !important;
+        max-width: 100% !important;
+        width: 100% !important;
     }
     
     .service-card {
